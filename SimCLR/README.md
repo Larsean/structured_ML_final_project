@@ -1,4 +1,4 @@
-# PyTorch SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
+# SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
 [![DOI](https://zenodo.org/badge/241184407.svg)](https://zenodo.org/badge/latestdoi/241184407)
 
 
@@ -6,7 +6,7 @@
 
 ![Image of SimCLR Arch](https://sthalles.github.io/assets/contrastive-self-supervised/cover.png)
 
-### See also [PyTorch Implementation for BYOL - Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://github.com/sthalles/PyTorch-BYOL).
+### See also [Implementation for BYOL - Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://github.com/sthalles/PyTorch-BYOL).
 
 ## Installation
 
@@ -28,7 +28,7 @@ $ python run.py -data ./datasets --dataset-name stl10 --log-every-n-steps 100 --
 
 If you want to run it on CPU (for debugging purposes) use the ```--disable-cuda``` option.
 
-For 16-bit precision GPU training, there **NO** need to to install [NVIDIA apex](https://github.com/NVIDIA/apex). Just use the ```--fp16_precision``` flag and this implementation will use [Pytorch built in AMP training](https://pytorch.org/docs/stable/notes/amp_examples.html).
+For 16-bit precision GPU training, there **NO** need to to install [NVIDIA apex](https://github.com/NVIDIA/apex). Just use the ```--fp16_precision``` flag and this implementation will use [built in AMP training](https://pytorch.org/docs/stable/notes/amp_examples.html).
 
 ## Feature Evaluation
 
