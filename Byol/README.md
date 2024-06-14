@@ -1,5 +1,5 @@
-# PyTorch-BYOL
-### PyTorch implementation of [Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://arxiv.org/abs/2006.07733).
+# BYOL
+### implementation of [Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://arxiv.org/abs/2006.07733).
 
 ![Image of Yaktocat](./assets/arch.png)
 
@@ -14,7 +14,7 @@ $ python main.py
 
 ## Config
 
-Before running PyTorch BYOL, make sure you choose the correct running configurations on the config.yaml file.
+Before running BYOL, make sure you choose the correct running configurations on the config.yaml file.
 
 ```yaml
 network:
